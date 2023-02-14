@@ -3,20 +3,14 @@
     <div class="block">
       <v-container>
         <h2 class="text-center">จากในน้องๆทีมงาน</h2>
-        <v-row>
-          <v-col
-            v-for="item in items"
-            :key="item.id"
-            class="d-flex child-flex"
-            cols="12"
-            sm="4"
-          >
+        <v-row justify="space-around">
+          <v-col v-for="item in items" :key="item.id" class="d-flex child-flex" cols="12" sm="4">
             <v-card flat tile class="mx-auto">
-              <v-img
-                :src="item.src"
-                aspect-ratio="1"
-                class="grey lighten-2"
-              ></v-img>
+              <div class="d-flex justify-center mb-6 bg-surface-variant">
+                <v-avatar size="250">
+                  <v-img :src="item.src" aspect-ratio="1" class="grey lighten-2"></v-img>
+                </v-avatar>
+              </div>
               <v-card-text class="text--primary text-center">
                 <div class="title">{{ item.name }}</div>
                 <p>{{ item.title }}</p>
@@ -79,7 +73,7 @@ export default {
         },
         {
           id: 7,
-          src: require("../assets/images/team5.jpg"),
+          src: require("../assets/images/team7.jpg"),
           name: "สิทธิชัย มากวิสัย",
           title:
             "สุขทุกข์ สมหวัง ผิดหวัง หัวเราะร้องไห้ อุปสรรค ทางเรียบ ทุกคืนวันมีความหมายเสมอมาครับ ขอบคุณโชคชะตา ที่ให้ได้ร่วมงานกันครับพี่ อบอุ่นมากครับ มีอะไรให้ช่วยเหลือ ก็ยินดีเป็นอย่างยิ่งครับพี",

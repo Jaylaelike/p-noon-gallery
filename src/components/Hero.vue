@@ -26,11 +26,11 @@ export default {
         },
         {
           src: require("../assets/images/img-carousel2.jpg"),
-          title: "We are hard worker"
+          title: "เป็นน้ำหนึ่งใจเดียว"
         },
         {
           src: require("../assets/images/img-carousel3.jpg"),
-          title: "We are professional"
+          title: "คงอยู่นิจนิรันดร"
         }
       ]
     };

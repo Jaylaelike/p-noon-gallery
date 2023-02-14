@@ -1,5 +1,8 @@
 <template>
+   
   <v-container>
+    <v-toolbar flat class="mainHeader">
+    <v-spacer></v-spacer>
     <v-footer padless>
       <v-card flat class="text-center">
         <v-card-text>
@@ -7,9 +10,6 @@
             <v-icon size="24px">{{ icon }}</v-icon>
           </v-btn>
         </v-card-text>
-        <v-card-text
-          class="pt-0"
-        >Photography is not just about taking pictures, it's about capturing the essence of a moment and preserving it for a lifetime. Whether you're using a professional camera or just your smartphone, the power to tell a story and evoke emotions is in your hands. So go out and capture the beauty of the world, experiment with different techniques and styles, and find your own unique perspective. In the end, it's not about having the best equipment, it's about having an eye for capturing the special moments that make life truly memorable.</v-card-text>
         <v-divider></v-divider>
         <v-card-text>
           {{ new Date().getFullYear() }} —
@@ -17,7 +17,10 @@
         </v-card-text>
       </v-card>
     </v-footer>
+    <v-spacer></v-spacer>
+  </v-toolbar>
   </v-container>
+
 </template>
 
 <script>
