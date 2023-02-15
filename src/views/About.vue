@@ -2,7 +2,7 @@
   <v-content>
     <div class="block">
       <v-container>
-        <h2 class="text-center">จากในน้องๆทีมงาน</h2>
+        <h2 class="text-center">จากใจน้องๆทีมงาน</h2>
         <v-row justify="space-around">
           <v-col v-for="item in items" :key="item.id" class="d-flex child-flex" cols="12" sm="4">
             <v-card flat tile class="mx-auto">

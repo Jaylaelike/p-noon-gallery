@@ -31,6 +31,10 @@ export default {
         {
           src: require("../assets/images/img-carousel3.jpg"),
           title: "คงอยู่นิจนิรันดร"
+        },
+        {
+          src: require("../assets/images/img-carousel4.jpg"),
+          title: "ไม่หวั่นอุปสรรค"
         }
       ]
     };
